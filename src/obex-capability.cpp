@@ -158,5 +158,5 @@ int main (int argc, char **argv){
     ObexCapability mw;
 
     QTimer::singleShot(0, &mw, SLOT(run()));
-    app.exec();
+    return app.exec();
 }
